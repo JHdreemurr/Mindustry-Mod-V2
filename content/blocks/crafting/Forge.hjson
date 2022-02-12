@@ -1,6 +1,6 @@
 type: GenericCrafter
 localizedName: Obsidian forge
-description: forms Obsidian by solidifing slag.
+description: forms Obsidian by cooling down slag.
 size: 2
 craftTime: 500
 consumes: {
