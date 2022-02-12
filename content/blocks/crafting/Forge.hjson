@@ -17,7 +17,7 @@ consumes: {
   power: 1.2
     items: {
     liquid: {
-    liquid: slag
+    liquid: Slag
     ammount: 0.4
       }
    }
