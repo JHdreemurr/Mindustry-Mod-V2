@@ -1,15 +1,27 @@
 type: GenericCrafter
-localizedName: Obsidian forge
-description: forms Obsidian by cooling down slag.
+name: Obsidian refinery
+description: Cools slag into a rocky state creating obsidian.
 size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+liquidCapacity: 440
+itemCapacity: 30
 craftTime: 500
+requirements: [
+  copper/200
+  lead/180
+  silicon/120
+]
 consumes: {
-  power: 1.75
-  items: {
+  power: 1.2
+    items: {
     liquid: {
     liquid: slag
-    amount: 0.4
-    }
-  }
+    ammount: 0.4
+      ]
+   }
 }
-outputItem: obsidian/2
+outputLiquid: obsidian/2
+category: crafting
+research: Slag
