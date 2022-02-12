@@ -19,7 +19,7 @@ consumes: {
     liquid: {
     liquid: slag
     ammount: 0.4
-      ]
+      }
    }
 }
 outputLiquid: obsidian/2
