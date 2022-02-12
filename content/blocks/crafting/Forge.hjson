@@ -15,12 +15,14 @@ requirements: [
 ]
 consumes: {
   power: 1.2
-    items: {
-    liquid: {
-    liquid: Slag
-    ammount: 0.4
-      }
-   }
+  items: {
+    items: [
+    ]
+  }
+  liquid: {
+    liquid: slag
+    amount: 0.4
+  }
 }
 outputItem: obsidian/2
 category: crafting
