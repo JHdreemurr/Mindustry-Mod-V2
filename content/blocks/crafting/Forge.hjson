@@ -1,0 +1,43 @@
+type: GenericCrafter
+localizedName: Obsidian forge
+description: forms Obsidian by combining Water and Slag together.
+size: 2
+craftTime: 500
+consumes: {
+  power: 1.75
+  items: {
+  liquid: {
+    liquid: water
+    amount: 1
+  }
+    liquid: {
+    liquid: slag
+    amount: 0.4
+  }
+}
+outputItem: Obsidian/2
+updateEffect: {
+  type: ParticleEffect
+  length: 6
+  particles: 5
+  lifetime: 35
+  colorFrom: 9A8E7D
+  colorTo: 9A8E7D
+  sizeFrom: 0.75
+}
+craftEffect: {
+  type: ParticleEffect
+  length: 12
+  lifetime: 45
+  particles: 12
+  colorFrom: 9A8E7D
+  colorTo: 9A8E7D
+  sizeFrom: 1.5
+  sizeTo: 0
+}
+category: crafting
+research: graphite-press
+requirements: [
+  copper/70
+  lead/60
+]
