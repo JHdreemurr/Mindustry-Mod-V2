@@ -22,6 +22,6 @@ consumes: {
       }
    }
 }
-outputLiquid: obsidian/2
+outputItem: obsidian/2
 category: crafting
 research: slag
