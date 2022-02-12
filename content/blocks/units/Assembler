@@ -1,0 +1,32 @@
+type: UnitFactory
+name: Assembler
+description: Creates basic tier 1 units. 
+size: 3
+consumes: {
+  power: 20
+}
+plans: [
+  {
+    unit: Welder
+    time: 1250
+    requirements: [
+      silicon/20
+      lead/35
+    ] 
+  }
+  {
+   unit: Glaive
+   time: 1500
+   requirements:  [
+       silicon/25
+       copper-alloy/30
+      ]
+    }
+   ]
+requirements: [
+  lead/75
+  silicon/40
+  copper-alloy/20
+]
+research: core-shard
+category: units
