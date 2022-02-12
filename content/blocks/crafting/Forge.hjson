@@ -1,19 +1,14 @@
 type: GenericCrafter
 localizedName: Obsidian forge
-description: forms Obsidian by combining Water and Slag together.
+description: forms Obsidian by solidifing slag.
 size: 2
 craftTime: 500
 consumes: {
   power: 1.75
   items: {
-  liquid: {
-    liquid: water
-    amount: 1
-  }
- }
     liquid: {
     liquid: slag
     amount: 0.4
   }
 }
-outputItem: Obsidian/2
+outputItem: obsidian/2
